@@ -19,9 +19,10 @@ knitr::opts_chunk$set(fig.pos = "!H",  fig.width=5, fig.height=3,
 
 \vspace{12pt}
 @. Question 1
-    ```{r Question 1}
+
+```{r Question 1}
 useful_code1 <- c(1,10,12,2,4)
-    ```
+```
 
 @. Question 2 (Note: Make sure to rename the chunk!)
     ```{r Question 2}
