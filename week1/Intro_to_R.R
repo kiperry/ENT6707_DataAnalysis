@@ -103,6 +103,7 @@ str(dat)
 dat$id
 dat$count
 dat$trmt
+dat$id
 
 # subset a row
 dat[2,]
