@@ -93,6 +93,7 @@ qqnorm(bal$wingL)
 qqline(bal$wingL)
 
 hist(bal$bodyS)
+bal$bodyS_Log <- log(bal$bodyS)
 hist(log(bal$bodyS))
 qqnorm(bal$bodyS)
 qqline(bal$bodyS)
