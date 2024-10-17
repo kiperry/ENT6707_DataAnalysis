@@ -33,7 +33,7 @@ str(growth)
 growth$species <- as.factor(growth$species)
 levels(growth$species) # 4 species
 
-# let's assess the effects of third instar larval weight and nutritional diet
+# let's assess the effects of third instar larval weight and dung beetle species
 # on adult weight
 library(car)
 library(sjPlot)
