@@ -1,0 +1,44 @@
+---
+title: "Template"
+format: 
+  html:
+    fig-width: 8
+    fig-height: 6
+---
+
+## Question 1
+
+Here is my response followed by my code.
+
+```{r}
+1 + 1
+```
+
+## Question 2
+
+In this example, we will run the code but *not* print the raw code. So, just the output will be rendered. This is done using "hash pipes" (`#|`) at the top of chunks.
+
+```{r}
+#| echo: FALSE
+1+1
+```
+
+## Question 3
+
+We can include figures...
+
+```{r}
+x <- seq(1, 10, by=1)
+y <- seq(1, 10, by=1)
+plot(y~x)
+```
+
+...and then use hash pipes to add a caption, change figure size, change alignment, etc.
+
+```{r}
+#| fig-cap: "A basic plot"
+#| fig-width: 7
+#| fig-height: 5
+#| fig-align: right
+plot(y~x)
+```
