@@ -1,7 +1,9 @@
 ---
 title: "Template"
+author: "Your Name Here"
 format: 
   html:
+    code-overflow: wrap
     fig-width: 8
     fig-height: 6
 ---
