@@ -47,6 +47,7 @@ library(car)
 library(sjPlot)
 library(sjmisc)
 library(emmeans)
+library(ggplot2)
 
 ##
 # model without interaction
@@ -90,7 +91,6 @@ anova(mod_no_interaction_switch)
 # redundant explained variation. So, in mod_no_interaction, the predictor `weight.L3` is listed first, and it claimed 
 # the redundant explained variation such that the variation explained by species is returned after accounting for weight.L3
 # The opposite is true for mod_no_interaction_switch. You can see this in the outputs based on the sums of squares values
-
 
 # Anova table (Type II or III tests) indicates there is an effect of larval weight and species on adult weight of dung beetles
 # Is there an interaction between larval weight and species?
